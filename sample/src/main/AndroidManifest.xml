@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="jahirfiquitiva.apps.iconshowcase.sample"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:name="jahirfiquitiva.iconshowcase.utilities.ApplicationBase"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="UnusedAttribute">
+
+        <uses-library
+            android:name="com.sec.android.app.multiwindow"
+            android:required="false"/>
+
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true"/>
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:value="632.0dip"/>
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:value="598.0dip"/>
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:value="632.0dip"/>
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:value="598.0dip"/>
+        <meta-data
+            android:name="com.lge.support.SPLIT_WINDOW"
+            android:value="true"/>
+
+        <!-- ShowcaseActivity -->
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.Base.LightLaunchScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+
+        <!-- Icons -->
+        <activity
+            android:name="jahirfiquitiva.iconshowcase.activities.ShowcaseActivity"
+            android:label="@string/app_name">
+
+            <intent-filter tools:ignore="GoogleAppIndexingDeepLinkError,GoogleAppIndexingWarning">
+
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+
+            <!-- ADW -->
+            <intent-filter>
+                <action android:name="org.adw.launcher.THEMES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- Apex -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.anddoes.launcher.THEME"/>
+            </intent-filter>
+            <!-- Atom -->
+            <intent-filter>
+                <action android:name="com.dlto.atom.launcher.THEME"/>
+            </intent-filter>
+            <!-- Nova -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.teslacoilsw.launcher.THEME"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.novalauncher.THEME"/>
+                <category android:name="com.novalauncher.category.CUSTOM_ICON_PICKER"/>
+            </intent-filter>
+            <!-- LauncherPro / Holo -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.fede.launcher.THEME_ICONPACK"/>
+            </intent-filter>
+            <!-- Next Launcher -->
+            <intent-filter>
+                <action android:name="com.gtp.nextlauncher.theme"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- TSF Shell -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.tsf.shell.themes"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- Turbo Launcher -->
+            <intent-filter>
+                <action android:name="com.phonemetra.turbo.launcher.icons.ACTION_PICK_ICON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- Smart Launcher -->
+            <intent-filter>
+                <action android:name="ginlemon.smartlauncher.THEMES"/>
+                <action android:name="ginlemon.smartlauncher.BUBBLESTYLE"/>
+                <action android:name="ginlemon.smartlauncher.BUBBLEICONS"/>
+                <action android:name="ginlemon.smartlauncher.CLOCKS"/>
+                <action android:name="ginlemon.smartlauncher.CLOCKFONTS"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- Nine Launcher -->
+            <intent-filter>
+                <action android:name="com.gridappsinc.launcher.theme.apk_action"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- Random launchers -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="org.adw.launcher.THEMES"/>
+                <action android:name="mobi.bbase.ahome.THEME"/>
+                <action android:name="com.rogro.GDE.THEME.1"/>
+                <action android:name="com.android.dxtop.launcher.THEME"/>
+
+                <category android:name="com.fede.launcher.THEME_ICONPACK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON"/>
+                <action android:name="mobi.bbase.ahome.THEME"/>
+                <action android:name="com.rogro.GDE.THEME.1"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cdproductions.crazyicons.TWO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- THEME MANAGER -->
+            <intent-filter>
+                <action android:name="com.daeva112.manager.MAIN"/>
+                <category android:name="com.daeva112.manager.THEME"/>
+            </intent-filter>
+            <!-- GO LAUNCHER -->
+            <intent-filter>
+                <action android:name="com.gau.go.launcherex.theme"/>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.THEME_SCENE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+            <!-- Solo Launcher -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="home.solo.launcher.free.THEMES"/>
+                <action android:name="home.solo.launcher.free.ACTION_ICON"/>
+            </intent-filter>
+            <!-- LG Home -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.lge.launcher2.THEME"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <!-- Wallpapers Activity -->
+        <activity
+            android:name="jahirfiquitiva.iconshowcase.activities.ViewerActivity"
+            android:label="@string/title_activity_detailed_wallpaper"
+            android:theme="@style/ViewerTheme"/>
+
+        <service
+            android:name="jahirfiquitiva.iconshowcase.muzei.ArtSource"
+            android:description="@string/artsource_desc"
+            android:icon="@drawable/ic_muzei_logo"
+            android:label="@string/artsource_name"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="color"
+                android:value="@color/primary"/>
+            <meta-data
+                android:name="settingsActivity"
+                android:value="jahirfiquitiva.iconshowcase.muzei.MuzeiSettings"/>
+        </service>
+
+        <activity
+            android:name="jahirfiquitiva.iconshowcase.muzei.MuzeiSettings"
+            android:exported="true"
+            android:label="@string/muzei_settings"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <!-- WIDGETS -->
+
+        <!-- Icon restorer Widget -->
+
+        <receiver
+            android:name="jahirfiquitiva.iconshowcase.widgets.IconRestorerWidget"
+            android:icon="@drawable/app_logo"
+            android:label="@string/iconrestorer_widget_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/icon_restorer_widget_provider"/>
+        </receiver>
+
+        <activity
+            android:name="jahirfiquitiva.iconshowcase.activities.LauncherIconRestorerActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/EmptyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+
+        <!-- Clock Widget -->
+
+        <receiver
+            android:name="jahirfiquitiva.iconshowcase.widgets.ClockWidget"
+            android:label="@string/clock_widget_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.oldName"
+                android:value="com.android.deskclock.AnalogAppWidgetProvider"/>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/clock_widget_provider"/>
+        </receiver>
+
+        <meta-data
+            android:name="jahirfiquitiva.iconshowcase.utilities.GlideConfiguration"
+            android:value="GlideModule"/>
+
+    </application>
+
+</manifest>

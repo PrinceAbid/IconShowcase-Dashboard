@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string-array name="fullchangelog">
+        <item>@array/newstuff</item>
+        <item>@array/improvements</item>
+    </string-array>
+
+    <string-array name="newstuff">
+        <item>New:</item>
+        <item>A lot of awesome stuff.</item>
+    </string-array>
+
+    <string-array name="improvements">
+        <item>Improvements:</item>
+        <item>About everything.</item>
+    </string-array>
+
+    <string-array name="changelog_icons">
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+        <item>facebook</item>
+        <item>chrome</item>
+        <item>dumb_ways_to_die</item>
+        <item>duolingo</item>
+        <item>cm_file_manager</item>
+        <item>fimbo</item>
+        <item>andy</item>
+        <item>cabinet</item>
+    </string-array>
+
+</resources>

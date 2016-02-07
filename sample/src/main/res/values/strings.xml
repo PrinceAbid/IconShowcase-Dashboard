@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- ShowcaseActivity Strings -->
+    <string name="app_name">IconShowcase</string>
+    <string name="app_long_name">IconShowcase Sample</string>
+    <string name="theme_description">IconShowcase is a Material Design based Icon Pack dashboard template. Free and open source.</string>
+
+    <!-- Launcher Activity Name
+    if the activity is:
+    com.packagename.appname.Activity
+    then write Activity
+    -->
+    <string name="main_activity_name">HomeActivity</string>
+
+    <string name="iconpack_author_name">Jahir Fiquitiva</string>
+    <string name="iconpack_author_photo" formatted="false" tools:ignore="TypographyDashes">https://lh4.googleusercontent.com/-IyRx4Aav1XU/VluTg9HOAuI/AAAAAAAANok/_C84Zl9yrr4/s548-no/af3938fc-0a44-43c9-98b7-b72d56937fdf</string>
+    <string name="iconpack_author_banner" formatted="false" tools:ignore="TypographyDashes">https://lh6.googleusercontent.com/-Aa7_LT90P78/VTP6DEeh1rI/AAAAAAAACkY/bkw2twwqtFI/w975-h548-no/Cover%2BJahir%2BFiquitiva.png</string>
+    <string name="iconpack_author_description">I am a designer and I love this dashboard.</string>
+    <string name="iconpack_author_gplus">https://www.google.com/+JahirFiquitivaJDev</string>
+    <string name="iconpack_author_gplus_community">https://plus.google.com/communities/117748118619432374563</string>
+    <string name="iconpack_author_fb">fb://profile/1123913326</string>
+    <string name="iconpack_author_fb_alt">https://www.facebook.com/JahirFiquitiva</string>
+    <string name="iconpack_author_twitter">twitter://user?screen_name=jahirfiquitiva</string>
+    <string name="iconpack_author_twitter_alt">https://twitter.com/#!/jahirfiquitiva</string>
+    <string name="iconpack_author_playstore">https://play.google.com/store/apps/dev?id=7438639276314720952</string>
+    <string name="iconpack_author_website">http://www.jahirfiquitiva.net/</string>
+    <string name="iconpack_author_youtube">https://www.youtube.com/channel/UCBTheBoZEA1p95HyjEHqouA</string>
+
+    <string-array name="iconpack_author_sites">
+        <item>@string/facebook</item>
+        <item>@string/join_community</item>
+        <item>@string/youtube</item>
+        <item>@string/twitter</item>
+        <item>@string/play_store</item>
+    </string-array>
+
+    <string-array name="iconpack_author_links">
+        <item>@string/iconpack_author_fb_alt</item>
+        <item>@string/iconpack_author_gplus_community</item>
+        <item>@string/iconpack_author_youtube</item>
+        <item>@string/iconpack_author_twitter</item>
+        <item>@string/iconpack_author_playstore</item>
+    </string-array>
+
+    <!-- Muzei Stuff -->
+    <string name="artsource_name">@string/app_name</string>
+    <string name="artsource_desc">Wallpapers made by MinDesigns</string>
+
+    <string name="json_file_url">http://www.jahirfiquitiva.net/wallpapers/iconshowcase.json</string>
+
+    <!-- Icon Pack designer/owner e-mail -->
+    <string name="email_id">someone@email.com</string>
+
+    <!-- Mail subjects for simple e-mail and requests e-mail -->
+    <string name="email_subject">IconShowcase</string>
+
+    <!-- This are the strings for the cards in the main screen -->
+    <string name="welcome_title">Welcome to IconShowcase</string>
+
+    <!-- Feature picture that appears above the description -->
+    <string name="theme_feature">icons_banner</string>
+
+    <!-- Previews Pictures Names -->
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_preview2">preview2</string>
+
+    <!-- Strings for Wallpapers and Requests -->
+    <string name="request_save_location">%1$s/IconShowcase/Requests/</string>
+    <string name="walls_save_location">%1$s/IconShowcase/Wallpapers/</string>
+
+    <!-- These things are needed for some launchers (Feel free to edit, though is not needed) -->
+    <string name="theme_title">@string/app_name</string>
+    <string name="theme_name">@string/theme_title</string>
+    <string name="developer_name">@string/iconpack_author</string>
+    <string name="developerName">@string/developer_name</string>
+    <string name="theme_author">@string/developer_name</string>
+    <string name="authorName">@string/developer_name</string>
+    <string name="authorLink">@string/iconpack_author_website</string>
+    <string name="theme_info">@string/theme_description</string>
+    <string name="theme_ad_msg">@string/theme_description</string>
+
+</resources>

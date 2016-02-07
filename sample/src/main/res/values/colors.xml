@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_theme_primary">#455a64</color>
+    <color name="light_theme_primary_dark">#263238</color>
+    <color name="light_theme_accent">#00b0ff</color>
+
+    <color name="dark_theme_primary">#455a64</color>
+    <color name="dark_theme_primary_dark">#263238</color>
+    <color name="dark_theme_accent">#00b0ff</color>
+
+    <color name="fab_background_tint_light_theme">@color/light_theme_accent</color>
+    <color name="fab_background_tint_dark_theme">@color/dark_theme_accent</color>
+
+    <!-- Some colors for material dialogs-->
+    <color name="md_button_text_light">@color/light_theme_accent</color>
+    <color name="md_button_text_dark">@color/dark_theme_accent</color>
+
+    <!-- Some colors for material drawer -->
+    <color name="material_drawer_selected_text">@color/light_theme_accent</color>
+    <color name="material_drawer_dark_selected_text">@color/dark_theme_accent</color>
+
+    <!--Light and Dark backgrounds for Splash screen -->
+    <color name="splash_dark_background">@color/dark_bg</color>
+    <color name="splash_light_background">@color/light_bg</color>
+    <color name="splash_dark_statusbar">#000000</color>
+    <color name="splash_light_statusbar">#e0e0e0</color>
+
+
+    <!-- ADDITIONAL COLORS -->
+    <!--You likely don't need to modify the colors below, but they're here if you need them-->
+
+    <!-- Ripples colors-->
+    <color name="semitransparent_white">#80ffffff</color>
+    <color name="semitransparent_black">#66000000</color>
+
+    <!-- Some texts colors -->
+    <color name="primary_text_light">#de000000</color>
+    <color name="secondary_text_light">#8a000000</color>
+    <color name="primary_text_dark">#ffffffff</color>
+    <color name="secondary_text_dark">#b3ffffff</color>
+    <color name="semitransparent_text_dark">#80ffffff</color>
+
+    <!-- Other material dialogs colors -->
+    <color name="md_dialog_title_light">@color/primary_text_light</color>
+    <color name="md_dialog_content_light">@color/secondary_text_light</color>
+    <color name="md_dialog_title_dark">@color/primary_text_dark</color>
+    <color name="md_dialog_content_dark">@color/secondary_text_dark</color>
+
+    <!-- Cards colors -->
+    <color name="card_dark_background">#424242</color>
+    <color name="card_light_background">#fafafa</color>
+
+    <!-- Drawable or icons tint color-->
+    <color name="drawable_tint_light">#757575</color>
+    <color name="drawable_tint_dark">@android:color/white</color>
+    <color name="drawable_base_tint">#616161</color>
+
+    <!-- Window backgrounds colors-->
+    <color name="light_bg">#fafafa</color>
+    <color name="dark_bg">#303030</color>
+
+    <color name="divider">#757575</color>
+
+    <!--Extra background colors for home section-->
+    <color name="home_dark_background">@color/card_dark_background</color>
+    <color name="home_light_background">@color/card_light_background</color>
+
+    <!--snackbar background colors-->
+    <color name="snackbar_light">#ddd</color>
+    <color name="snackbar_dark">#333</color>
+
+    <!--colors for apply launcher (for launchers that aren't installed)-->
+    <color name="launcher_tint_light">@color/drawable_tint_light</color>
+    <color name="launcher_tint_dark">@color/drawable_tint_dark</color>
+    <color name="launcher_text_light">@color/secondary_text_light</color>
+    <color name="launcher_text_dark">@color/primary_text_dark</color>
+
+    <!--colors for installed launchers-->
+    <color name="action_launcher_color">#f44336</color>
+    <color name="adw_launcher_color">#5b9cc8</color>
+    <color name="adw_ex_launcher_color">#5b9cc8</color>
+    <color name="apex_launcher_color">#63cded</color>
+    <color name="atom_launcher_color">#a657bd</color>
+    <color name="aviate_launcher_color">#fc842d</color>
+    <color name="cm_theme_engine_color">#29b6f6</color>
+    <color name="epic_launcher_color">#2196f4</color>
+    <color name="go_launcher_color">#95c955</color>
+    <color name="google_now_launcher_color">#0097f6</color>
+    <color name="holo_launcher_color">#65473c</color>
+    <color name="holo_hd_launcher_color">#8bc34a</color>
+    <color name="inspire_launcher_color">#f96edf</color>
+    <color name="kk_launcher_color">#ffc107</color>
+    <color name="l_launcher_color">#f67c00</color>
+    <color name="lg_home_color">#00bcd4</color>
+    <color name="lucid_launcher_color">#2196f4</color>
+    <color name="mini_launcher_color">#4caf50</color>
+    <color name="nemus_launcher_color">#607da4</color>
+    <color name="next_launcher_color">#5787c5</color>
+    <color name="nine_launcher_color">#009592</color>
+    <color name="nova_launcher_color">#f83729</color>
+    <color name="s_launcher_color">#00bcd4</color>
+    <color name="smart_launcher_color">#2eb3d9</color>
+    <color name="smart_pro_launcher_color">#2eb3d9</color>
+    <color name="solo_launcher_color">#ba68c8</color>
+    <color name="tsf_launcher_color">#2196f3</color>
+    <color name="unicon_pro_color">#78c257</color>
+
+</resources>

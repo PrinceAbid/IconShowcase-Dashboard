@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_contentInset">72dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="tabs_contentInset">57dp</dimen>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Tabs to be used as primary drawer items
+    The Home section will be added automatically
+
+    Other possible tabs:
+    Previews, Wallpapers, Requests, Apply, FAQs, Zooper
+
+    Make sure you add the tabs with the exact word as the options listed, with the proper caps as well
+    Make sure you have an Apply section!
+    -->
+    <string-array name="primary_drawer_items">
+        <item>Previews</item>
+        <item>Wallpapers</item>
+        <item>Requests</item>
+        <item>Apply</item>
+        <item>FAQs</item>
+    </string-array>
+
+    <!--
+        Credits and settings will automatically be added as secondary items
+    -->
+
+    <!-- Default theme
+    1. Light
+    2. Dark
+    3. Auto
+    -->
+    <integer name="default_theme">1</integer>
+
+    <!--
+    Do you want to allow users to change app theme?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="allow_user_theme_change">true</bool>
+
+    <!--
+    Do you want to allow users to hide the app icon?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="allow_user_to_hide_app_icon">true</bool>
+
+    <!-- Default Navigation Bar value
+    True, means colored.
+    False, means black.
+    -->
+    <bool name="color_navbar_by_default">true</bool>
+
+    <!--
+    Navigation Drawer Header Style:
+    1. Normal
+    2. Mini
+    3. No header
+    -->
+    <integer name="nav_drawer_header_style">2</integer>
+
+    <!--
+    Mini Navigation Drawer Header Solid Color?
+    True, means that the drawer header will use the primary color instead of a picture.
+    False, means that the drawer header will use the 'header' picture.
+    You can ignore this if you won't use the mini header style.
+    -->
+    <bool name="mini_header_solid_color">false</bool>
+
+    <!--
+    Do you want the drawer secondary items to show icons?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="secondary_drawer_items_icons">false</bool>
+
+    <!--
+    Do you want the app to use the icons based changelog, instead of texts one?
+    True, means the icons based changelog will be used.
+    False, mean the text based changelog will be used.
+    -->
+    <bool name="icons_changelog">false</bool>
+
+    <!--
+    Do you want to have ripples when pressing an item in the text changelog?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="changelog_ripples">false</bool>
+
+    <!--
+    Do you want to enable the use of user's wallpapers in home section?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="user_wallpaper_in_home">true</bool>
+
+    <!--
+    If you include Zooper widgets, do any of them need MediaUtilities to work properly?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="mu_needed">false</bool>
+
+    <!--
+    Do you want to use the cards based About/Credits section?
+    True, means the About/Credits section will have cards.
+    False, means such section will show the list.
+    -->
+    <bool name="cards_credits">true</bool>
+
+    <!--
+    Do you have a website?
+    Something like: www.myrealcustomwebsite.com
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="you_have_a_website">true</bool>
+
+    <!--
+    Do you want the app to use palette api in wallpapers section?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="use_palette_api">true</bool>
+
+    <!--
+    Do you want the app to use palette api in texts in wallpapers section?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="use_palette_api_in_texts">false</bool>
+
+    <!--
+    Choose one of the palette styles: (use only the numbers here (1~6))
+    1. VIBRANT
+    2. VIBRANT_LIGHT
+    3. VIBRANT_DARK
+    4. MUTED
+    5. MUTED_LIGHT
+    6. MUTED_DARK
+    -->
+    <integer name="palette_swatch">1</integer>
+
+    <!--
+    Do you want to use high definition wallpapers?
+    (the difference between -medium- and -high- definition is pretty minimal.
+    use high definition if your wallpapers have transparency stuff.
+    medium definition will make pictures load faster.
+    high definition will make pictures load slower, and increase cache size, and memory (ram) usage.
+    -->
+    <bool name="high_definition_walls">true</bool>
+
+    <!--
+    How many icons does your app include?
+    -->
+    <integer name="icons_amount">600</integer>
+
+    <!--
+    How many wallpapers does your app include?
+    -->
+    <integer name="walls_amount">100</integer>
+
+    <!--
+    How many Zooper widget does your app include?
+    (Don't worry, it will be ignored if your app doesn't include Zooper).
+    -->
+    <integer name="zooper_widgets">0</integer>
+
+    <!--
+    Setup the columns amount you want in different sections
+    -->
+    <!-- PHONES - PORTRAIT MODE -->
+    <integer name="icons_columns_normal_portrait">4</integer>
+    <integer name="launchers_columns_normal_portrait">3</integer>
+    <!-- PHONES - LANDSCAPE MODE -->
+    <integer name="icons_columns_normal_landscape">6</integer>
+    <integer name="launchers_columns_normal_landscape">6</integer>
+    <!-- TABLETS - PORTRAIT MODE -->
+    <integer name="icons_columns_tablet_portrait">8</integer>
+    <integer name="launchers_columns_tablet_portrait">5</integer>
+    <!-- TABLETS - LANDSCAPE MODE -->
+    <integer name="icons_columns_tablet_landscape">10</integer>
+    <integer name="launchers_columns_tablet_landscape">6</integer>
+
+    <!--
+    Do you want the "ALL ICONS" tab to be generated automatically?
+    If you are sure you have put all the icons in categories.
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="auto_generate_all_icons">true</bool>
+</resources>
