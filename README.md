@@ -40,6 +40,11 @@ Try out the sample app [here](https://github.com/jahirfiquitiva/IconShowcase-Das
 Everything you need to know can be found in the [Wiki site](https://github.com/jahirfiquitiva/IconShowcase-Dashboard/wiki).
 
 
+# Help translating
+
+Help making IconShowcase available in more languages. [Click here to go to the translation site](http://jahirfiquitiva.oneskyapp.com/collaboration/project?id=55066).
+
+
 # Developed By
 
 * Jahir Fiquitiva
@@ -47,9 +52,9 @@ Everything you need to know can be found in the [Wiki site](https://github.com/j
 * Google+: https://plus.google.com/+JahirFiquitivaJDev/posts
     
 
-# Complete source
+# Library source
 
-Find the complete source [here](https://github.com/jahirfiquitiva/IconShowcase).
+Find the complete library source [here](https://github.com/jahirfiquitiva/IconShowcase), in case you want to do some extra modifications and stuff. The result of such modifications (either success, errors, crashes, etc.) must be completely under your own risk and responsibility.
 
     
 # License
