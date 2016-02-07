@@ -11,12 +11,27 @@ Try out the sample app [here](https://github.com/jahirfiquitiva/IconShowcase-Das
 - Changelog shown with every update.
 - Previews section, where user can see and search for themed icons which organized by categories.
 - Clickable icons in previews section, showing the icon and app name in a dialog.
-- Apply section with 28 supported launchers.
 - Cloud based (only) wallpapers.
-- Wallpapers can be applied, cropped or downloaded.
+- Wallpapers can be applied, cropped or downloaded. Wallpapers include a full-screen viewer with zooming capabilities.
 - Muzei support.
-- In-app icon request tool. Fully functional. Without duplicates and incredibly fast.
+- In-app icon request tool. Fully functional. Without duplicates and incredibly fast. This tool generates 'appfilter.xml', 'theme_resources.xml' and 'appmap.xml' which are the needed files for icon packs designers to be able to provide support to as many launchers as possible.
+- Apply section with 28 supported launchers. Launchers are sorted by installed first, and alphabetically.
+- FAQs section, to answer the questions your users have.
+- Zooper section.
 - Credits section. With 2 layouts styles to match your likes.
+- Settings section with these options:
+	- Option to change app theme (Light, Dark, Auto).
+	- Option to color navigation bar (Lollipop+).
+	- Option to clear app cache.
+	- Option to change where to download wallpapers.
+	- Option to hide icon from launchers.
+- Analog clock widget.
+- Widget/Shortcut to open the app. (In case users hide the icon).
+- Tablet layouts.
+- Full Marshmallow support.
+- App works as a gallery so users are able to pick pictures to use them in other apps.
+- Lots of customizations.
+- Dashboard texts are translated to more than 8 languages, and more will come with time.
 - Requires API 16+ (Android 4.1+).
 
 
