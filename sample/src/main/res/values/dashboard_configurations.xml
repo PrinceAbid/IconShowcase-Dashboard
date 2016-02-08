@@ -22,6 +22,11 @@
         Credits and settings will automatically be added as secondary items
     -->
 
+    <!-- Specify splashscreen color
+    Can be LightLaunchScreen or DarkLaunchScreen
+    -->
+    <style name="AppTheme.LaunchScreen" parent="@style/AppTheme.Base.LightLaunchScreen" />
+
     <!-- Default theme
     1. Light
     2. Dark

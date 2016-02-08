@@ -46,13 +46,15 @@ dependencies {
     //Main library
     compile 'com.github.jahirfiquitiva:IconShowcase:1.0@aar'
 
-    //Android support libraries needed to build the sample
+	//Android support libraries needed to build the sample
     compile 'com.android.support:appcompat-v7:23.1.1@aar'
     compile 'com.android.support:support-v4:23.1.1@aar'
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:cardview-v7:23.1.1@aar'
     compile 'com.android.support:recyclerview-v7:23.1.1@aar'
+    compile 'com.android.support:palette-v7:23.1.1@aar'
     compile 'com.android.support:gridlayout-v7:23.1.1'
+    compile 'com.android.support:customtabs:23.1.1'
 
     //Material Dialogs
     compile('com.afollestad.material-dialogs:core:0.8.5.4@aar') {
@@ -64,7 +66,28 @@ dependencies {
         transitive = true
     }
 
+    //Material icons fonts
+    compile 'com.mikepenz:google-material-typeface:2.2.0.1@aar'
+
+    //Glide Library - Image Loading Lib
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+
+    //Glide Palette Library
+    compile 'com.github.florent37:glidepalette:1.0.6'
+
+    //Muzei API
+    compile 'com.google.android.apps.muzei:muzei-api:2.0'
+
+    //Floating Action Menu
+    compile 'com.github.clans:fab:1.6.2'
+
     //Circular Image View
     compile 'de.hdodenhof:circleimageview:2.0.0'
+
+    //RecyclerView Fast Scroller
+    compile 'com.github.pluscubed:recycler-fast-scroll:0.3.0@aar'
+
+    //Donations Lib
+    compile 'org.sufficientlysecure:donations:2.4'
 
 }
