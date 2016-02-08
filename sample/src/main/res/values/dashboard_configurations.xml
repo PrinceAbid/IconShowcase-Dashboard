@@ -192,5 +192,6 @@
     True, means yes.
     False, means no.
     -->
-    <bool name="auto_generate_all_icons">true</bool>
+    <bool name="auto_generate_all_icons">false</bool>
+	
 </resources>
