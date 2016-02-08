@@ -50,6 +50,34 @@ Help making IconShowcase available in more languages. [Click here to go to the t
 * Jahir Fiquitiva
 * Web: http://www.jahirfiquitiva.net/
 * Google+: https://plus.google.com/+JahirFiquitivaJDev/posts
+
+
+# Special Thanks
+
+### [Sherry Sabatine](https://plus.google.com/+SherrySabatine)
+Thanks to her, IconShowcase is completely free and open-source.
+
+### Development contributors
+- [Allan Wang](https://plus.google.com/+AllanWPitchedApps/posts)
+- [Joaquin Cuitiño](https://plus.google.com/+JoaquinCuitiñoF/posts)
+- [Patrick Jung](https://plus.google.com/+PatrickJung42/posts)
+- [Steve Albright](https://plus.google.com/111777412946608276908/auto)
+- [Ahmed Rizwan](https://plus.google.com/+AhmedRizwan/posts)
+- [Heinrich Reimer](https://plus.google.com/+HeinrichReimer/posts)
+- [Alexandre Piveteau](https://plus.google.com/+AlexandrePiveteau/posts)
+- [James Fenn](https://plus.google.com/+JamesFennJAFFA2157/posts)
+- [Aidan Follestad](http://www.aidanfollestad.com/)
+- [Mike Penz](http://portfolio.mikepenz.com/)
+- [Dani Mahardika](https://plus.google.com/+DaniMahardhika/posts)
+
+### UI Design Collaborators
+- [Rob Beane](https://plus.google.com/111678887963556771807/posts)
+- [Karim Abou Zeid](https://plus.google.com/103202379000002144026/posts)
+- [Tim Bremer](https://plus.google.com/114641367439276138127/posts)
+- [Josh Gray](https://plus.google.com/+JoshGray1789/posts)
+- [Patryk Goworowski](https://plus.google.com/109304801957014561872/posts)
+- [Anthony Nguyen](https://plus.google.com/111080505870850761155/posts)
+- [Kevin Aguilar](https://plus.google.com/+KevinAguilarC/posts)
     
 
 # Library source
