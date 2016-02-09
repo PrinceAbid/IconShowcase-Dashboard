@@ -2,7 +2,7 @@
 
 IconShowcase is a full-of-features, easy-to-customize, free and open source, Material Design based dashboard for icon packs.
 
-Try out the sample app [here](https://github.com/jahirfiquitiva/IconShowcase-Dashboard).
+Try out the sample app [here](https://github.com/jahirfiquitiva/IconShowcase-Dashboard/raw/master/IconShowcase-Sample.apk).
 
 # Features:
 
