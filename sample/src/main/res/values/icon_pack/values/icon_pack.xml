@@ -47,6 +47,7 @@
         <item>acdisplay</item>
         <item>action_launcher</item>
         <item>adaway</item>
+        <item>something</item>
     </string-array>
 
     <!-- GOOGLE APPS ICONS -->
@@ -58,6 +59,7 @@
         <item>afterlight</item>
         <item>airdroid</item>
         <item>alarmpad</item>
+        <item>an_icon</item>
     </string-array>
 
     <!-- GAMES ICONS -->
